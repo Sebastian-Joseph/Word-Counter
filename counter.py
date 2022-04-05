@@ -1,4 +1,3 @@
-
 def word_counter(str):
     counts = dict()
     word = str.split()
@@ -10,4 +9,4 @@ def word_counter(str):
             counts[wrd] = 1
     return counts
 
-print(word_counter("Seb seb Sebas"))
+print(word_counter(""))
